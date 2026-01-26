@@ -7,9 +7,13 @@ export default function App(): ReactElement {
   return (
     <>
       <Header />
-      <div className="h-screen">
+      
+      <main className="p-12 h-80 bg-blue-200">
         <h1>UNDER CONSTRUCTION</h1>
-      </div>
+      </main>
+      <section className="p-12 h-80 bg-lime-200">
+        another section
+      </section>
       <Footer />
     </>
   )
