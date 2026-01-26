@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+#root {
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    padding: 12px 32px;
+}
+footer {
+    padding: 6px 32px;
+    color: white;
+}

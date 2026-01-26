@@ -1,13 +1,16 @@
 import {type ReactElement} from 'react';
-import './App.css';
-import Menu from './components/Menu';
+import './index.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 export default function App(): ReactElement {
   return (
-    <div className="bg-white">
-      <Menu />
-      <div>
+    <>
+      <Header />
+      <div className="h-screen">
+        <h1>UNDER CONSTRUCTION</h1>
       </div>
-    </div>
+      <Footer />
+    </>
   )
 }
