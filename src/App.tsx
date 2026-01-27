@@ -1,11 +1,7 @@
 import { type ReactElement } from "react";
 import "./index.css";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Splash from "./sections/Splash";
-import Experience from "./sections/Experience";
-import Projects from "./sections/Projects";
-import Contact from "./sections/Contact";
+import { Header, Footer } from "./components/index.ts";
+import { Splash, Experience, Projects, Contact } from "./sections/index.ts";
 
 export default function App(): ReactElement {
    return (
