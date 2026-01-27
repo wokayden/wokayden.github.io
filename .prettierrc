@@ -1,1 +1,6 @@
-{}
+{
+   "tabWidth": 3,
+   "printWidth": 50,
+   "proseWrap": "always",
+   "jsxSingleQuote": true
+}
