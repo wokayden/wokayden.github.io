@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Footer(): ReactElement {
     return (
-        <footer className="bottom-0 flex flex-row content-center justify-end bg-orange-400">
+        <footer className="bottom-0 flex flex-row content-center justify-end bg-orange-400 fixed inset-x-0 bottom-0">
             <nav className="flex flex-row content-center justify-between gap-3">
                 <FaGithub />
                 <FaLinkedin />
