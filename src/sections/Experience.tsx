@@ -21,11 +21,18 @@ export default function Experience(): ReactElement {
                <div className='flex flex-col gap-4'>
                   <Card
                      cardTitle={`DirectDefense`}
-                     cardContent={`providing over 4 years of
+                     cardContent={`Providing over 4 years of
                         experience transforming
                         legacy systems`}
                   />
-                  <Card />
+                  <Card
+                     cardTitle={
+                        "Georgia Institute of Technology"
+                     }
+                     cardContent={
+                        "Certificate in UX/UI Design"
+                     }
+                  />
                </div>
             </div>
          </div>
