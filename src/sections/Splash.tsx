@@ -1,4 +1,5 @@
 import { type ReactElement } from "react";
+import { Button } from "../components";
 
 export default function Splash(): ReactElement {
    return (
@@ -16,9 +17,12 @@ export default function Splash(): ReactElement {
                <p className='w-max p-4'>
                   some smaller text
                </p>
-               <button className='w-max bg-yellow-200 p-4 mt-4 ml-2 rounded-xl'>
+               <Button
+                  className='w-max mt-4 ml-2'
+                  kind='secondary'
+               >
                   a call to action
-               </button>
+               </Button>
             </div>
          </div>
       </main>
